@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/switchLog"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:text="Logout"
+        android:checked="true"/>
+
+    <TextView
+        android:id="@+id/connection_status_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/TextWelcome"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome To Login"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/numbetText"
+        android:layout_marginTop="15dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="@drawable/editcorner"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lock"
+        android:id="@+id/Lock"/>
+    <ImageView
+        android:paddingLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/unlock"
+        android:id="@+id/UnLock"/>
+    </LinearLayout>
+
+</LinearLayout>
